@@ -73,7 +73,5 @@ q = LinkedListQueue()
 q.enqueue(1)
 q.enqueue(2)
 q.enqueue(3)
-print(q.dequeue())
+q.dequeue()
 print(str(q))
-for element in q:
-    print(element)
